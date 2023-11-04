@@ -1,5 +1,6 @@
 
 // <script src="phishing.js"></script>
+// form onsubmit="submitLoginForm(event)"
 
 function submitLoginForm(event){
     event.preventDefault();
